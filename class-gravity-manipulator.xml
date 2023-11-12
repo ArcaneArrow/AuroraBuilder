@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Gravity Manipulator</name>
+		<update version="0.1.0">
+			<file name="class-gravity-manipulator.xml"/>
+		</update>
+	</info>
+	<element name="Gravity Manipulator" type="Class" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_GRAVITY_MANIPULATOR">
+		<description>
+			<p>...</p>
+			<p class="indent">...</p>
+			<p class="indent">...</p>
+			<p class="indent">...</p>
+			<h4>...</h4>
+			<p>...</p>
+			<h4>...</h4>
+			<p>...</p>
+			<p class="indent">...</p>
+			<h4>CREATING A GRAVITY MANIPULATOR</h4>
+			<p>...</p>
+			<p class="indent">...</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make an Gravity Manipulator quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution. Second, choose the Urchin background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a gravity manipulator, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per gravity manipulator level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per gravity manipulator level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> All armor</li>
+                <li><strong>Weapons:</strong> Simple weapons, Flail, Maul, and Warhammer</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Wisdom, Constitution</li>
+                <li><strong>Skills:</strong> Choose two skills from Animal Handling, Insight, Medicine, Slight of Hand, Survival, and Stealth</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> Studded Leather, <i>(b)</i> Brestplate, or <i>(c)</i> Plate</li>
+				<li><i>(a)</i> a quarterstaff or <i>(b)</i> a greatclub</li>
+				<li><i>(a)</i> a sling and 20 rocks or <i>(b)</i> 30 darts</li>
+				<li><i>(a)</i> two daggers or <i>(b)</i> two handaxes</li>
+				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+			</ul>
+			<h5 class="caption">THE GRAVITY MANIPULATOR</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Gravitational Detection</td></tr>
+				<tr><td> 2nd</td><td class="left">Gyrokinesis, Fading Focus</td></tr>
+				<tr><td> 3rd</td><td class="left">Self-Tensor Field Manipulation</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td></tr>
+				<tr><td> 6th</td><td class="left">Ability Score Improvement, Gyrokinetic Materialization</td></tr>
+				<tr><td> 7th</td><td class="left">Evasion</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 9th</td><td class="left">Bio-Gravitonic Control</td></tr>
+				<tr><td>10th</td><td class="left">Forces of Freedom</td></tr>
+				<tr><td>11th</td><td class="left">Extra Attack (2)</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td class="left">Gravitational Force Field</td></tr>
+				<tr><td>14th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>15th</td><td class="left">Alternate Weight Adaption</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td class="left">Mass Optimization</td></tr>
+				<tr><td>18th</td><td class="left">Mana Mastory</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td class="left">Extra Attack (3)</td></tr>
+			</table>
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_DETECTION" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINESIS" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FADING_FOCUS" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_SELF_TENSOR_FIELD_MANIPULATION" />
+			<div element="ID_SSH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_GRAVITYMANIPULATOR" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_EXTRA_ATTACK" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINETIC_MATERIALIZATION" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_EVASION" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_BIO_GRAVITONIC_CONTROL" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FORCES_OF_FREEDOM" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_FORCE_FIELD" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_ALTERNATE_WEIGHT_ADAPTION" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_MASS_OPTIMIZATION" />
+			<div element="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_MANA_MASTORY" />
+		</description>
+		<sheet display="false">
+			<description>...</description>
+		</sheet>
+		<setters>
+			<set name="short">...</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<select type="Proficiency" name="Skill Proficiency (Gravity Manipulator)" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_SLIGHT_OF_HAND|ID_PROFICIENCY_SKILL_SURVIVAL|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_DETECTION" level="1"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINESIS" level="2"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FADING_FOCUS" level="2"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_SELF_TENSOR_FIELD_MANIPULATION" level="3"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_GRAVITYMANIPULATOR" level="4"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_EXTRA_ATTACK" level="5"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINETIC_MATERIALIZATION" level="6"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_EVASION" level="7"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_BIO_GRAVITONIC_CONTROL" level="9"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FORCES_OF_FREEDOM" level="10"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_FORCE_FIELD" level="13"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_ALTERNATE_WEIGHT_ADAPTION" level="15"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_MASS_OPTIMIZATION" level="17"/>
+			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_MANA_MASTORY" level="18"/>
+		</rules>
+		<multiclass id="ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR">
+			<prerequisite>Wisdom 13 or Constitution 13</prerequisite>
+			<requirements>([wis:13]||[con:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, heavy armor, simple weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Gravitational Detection" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_DETECTION">
+		<description>
+			<p>Beginning at 1st level, you have expertise on all perception and investigation checks. When trying to locate a large, huge, or gargantuan sized creature, you have advantage on the perception or investigation check. You add +5 to your passive perception.</p>
+		</description>
+		<sheet>
+			<description level="1">When trying to locate a large, huge, or gargantuan sized creature, you have advantage on the perception or investigation check.</description>
+			<description level="1">You add +5 to your passive perception.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			<stat name="perception:proficiency" bonus="double" />
+			<stat name="investigation:proficiency" bonus="double" />
+			<stat name="perception:passive" value="5" />
+		</rules>
+	</element>
+	<element name="Gyrokinesis" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINESIS">
+		<description>
+			<p>You can spend mana points to create a gravitational anomaly. Your save dc for these abilities is equal to 8 + your wisdom modifier + your proficency bonus.</p>
+			<p class="indent">As a reaction you can spend mana points to slow the fall of up to five creatures within 60 feet of you. Each creature selected costs 1 mana point. A falling creature’s rate of descent slows to 60 feet per round until 1 minute passes. If the creature lands before the effect ends, it takes no falling damage and can land on its feet, and the effect ends for that creature.</p>
+			<p class="indent">As an action you can spend 1 mana point to increase the gravity in a 10-foot-radius sphere centered on a point you can see within 60 feet of you. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</p>
+			<p class="indent">As an action you can spend 3 mana points to choose a willing creature that you can see within 30 feet of you. For 1 minute, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns.</p>
+			<p class="indent">As an action you can spend 3 mana points to create a gravitational vacuum, unleash it in a 30-foot cone, and decide whether the it pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the ability.</p>
+		</description>
+		<sheet>
+			<description level="2">As a reaction you can spend mana points to slow the fall of up to five creatures within 60 feet of you. Each creature selected costs 1 mana point. A falling creature’s rate of descent slows to 60 feet per round until 1 minute passes. If the creature lands before the effect ends, it takes no falling damage and can land on its feet, and the effect ends for that creature.</description>
+			<description level="2">As an action you can spend 1 mana point to increase the gravity in a 10-foot-radius sphere centered on a point you can see within 60 feet of you. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</description>
+			<description level="2">As an action you can spend 3 mana points to choose a willing creature that you can see within 30 feet of you. For 1 minute, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns.</description>
+			<description level="2">As an action you can spend 3 mana points to create a gravitational vacuum, unleash it in a 30-foot cone, and decide whether the it pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the ability.</description>
+		</sheet>
+		<rules>
+			<stat name="mana:points" value="level:gravity-manipulator" />
+			<stat name="mana:dc" value="8" />
+			<stat name="mana:dc" value="proficiency" />
+			<stat name="mana:dc" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Fading Focus" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FADING_FOCUS">
+		<description>
+			<p>Beginning at 2nd level, whenever you take damage while using any aspect abilities, you must make a concentration saving through. On a failed save, all current ability usage ends. All damage you take before their next turn it is doubled.</p>
+		</description>
+		<sheet>
+			<description level="2">Beginning at 2nd level, whenever you take damage while using any aspect abilities, you must make a concentration saving through. On a failed save, all current ability usage ends. All damage you take before their next turn it is doubled.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Self-Tensor Field Manipulation" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_FIELDMANIPULATION">
+		<description>
+			<p>Beginning at 3rd level, as a bonus action you can chose to eithor weaken or strengthen gravity’s pull on you. When weakening gravity’s affect on you: you gain advantage on all dexterity checks and saves, your movment speed is doubled, all ranged attacks don’t have disadvantage due to range or cover, your ranged attacks have an additional +5 to hit, and you have disadvantage on strength saving throws. When strengthening gravity’s affect on you: you gain advantage on all strength checks and saves, your movment speed is halved, you deal double damage, you canot be encumbered, you are immune to being moved or knocked prone, your melee attacks have a additinal +5 to hit, and you have disadvantage on dexterity saving throws. After using this ability, you canot end the affect or change the type for a minimum of 12 seconds (2 turns).</p>
+		</description>
+		<sheet>
+			<description level="3">Beginning at 3rd level, as a bonus action you can chose to eithor weaken or strengthen gravity’s pull on you. When weakening gravity’s affect on you: you gain advantage on all dexterity checks and saves, your movment speed is doubled, all ranged attacks don’t have disadvantage due to range or cover, your ranged attacks have an additional +5 to hit, and you have disadvantage on strength saving throws. When strengthening gravity’s affect on you: you gain advantage on all strength checks and saves, your movment speed is halved, you deal double damage, you canot be encumbered, you are immune to being moved or knocked prone, your melee attacks have a additinal +5 to hit, and you have disadvantage on dexterity saving throws. After using this ability, you canot end the affect or change the type for a minimum of 12 seconds (2 turns).</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_GRAVITYMANIPULATOR">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 4)" supports="Improvement Option,Gravity Manipulator,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 6)" supports="Improvement Option,Gravity Manipulator,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 8)" supports="Improvement Option,Gravity Manipulator,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 12)" supports="Improvement Option,Gravity Manipulator,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 14)" supports="Improvement Option,Gravity Manipulator,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 16)" supports="Improvement Option,Gravity Manipulator,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Gravity Manipulator 19)" supports="Improvement Option,Gravity Manipulator,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<p class="indent">The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</p>
+		</description>
+		<sheet>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+			<description level="11">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
+			<description level="20">You can attack four times, instead of once, whenever you take the Attack action on your turn</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="3" level="11" bonus="extra attack" />
+			<stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Gyrokinetic Materialization" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINETIC_MATERIALIZATION">
+		<description>
+			<p>Beginning at 6th level, you can solidify and materialize gravity to create weapons and objects out of it. You can also use unstable constructs as projectiles with properties resembling a weak black hole. Weapons can be made using a bonus action and they last for 10 minutes or until a new one is created. Weapons made this way act as a +2 weapon. You habe proficiency in all weapons made using this ability. You can instead use an action to make 2 ranged attacks using unstable gravity projectiles. The range is 60/240 feet and deal 1d12 + your wisdom modifier force damage on a hit. The attack bonus is your wisdom modifier + your proficiency bonus.</p>
+			<p class="indent">The number of attacks per action with gravity projectiles increase to 3 at 11th level and 4 at 20th level.</p>
+		</description>
+		<sheet>
+			<description level="6">You can solidify and materialize gravity to create weapons and objects out of it. You can also use unstable constructs as projectiles with properties resembling a weak black hole. Weapons can be made using a bonus action and they last for 10 minutes or until a new one is created. Weapons made this way act as a +2 weapon. You habe proficiency in all weapons made using this ability. You can instead use an action to make 2 ranged attacks using unstable gravity projectiles. The range is 60/240 feet and deal 1d12 + your wisdom modifier force damage on a hit. The attack bonus is your wisdom modifier + your proficiency bonus.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Evasion" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_EVASION">
+		<description>
+			<p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+		</sheet>
+	</element>
+	<element name="Bio-Gravitonic Control" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_BIO_GRAVITONIC_CONTROL">
+		<description>
+			<p>Beginning at 9th level, you can control and alter the gravity of any living organism within 60 feet of you.</p>		</description>
+		<sheet>
+			<description level="9">You can control and alter the gravity of any living organism within 60 feet of you.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Forces of Freedom" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FORCES_OF_FREEDOM">
+		<description>
+			<p>Beginning at 10th level, you gain a flying speed equal to your movment speed.</p>		</description>
+		<sheet>
+			<description level="10">You gain a flying speed equal to your movment speed.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:fly:misc" value="innate speed" />
+		</rules>
+	</element>
+</elements>
