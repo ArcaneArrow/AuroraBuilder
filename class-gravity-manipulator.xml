@@ -2,8 +2,10 @@
 <elements>
 	<info>
 		<name>Gravity Manipulator</name>
+		<description>The Graviry Manipulator class (v1.0).</description>
+		<author url="https://homebrewery.naturalcrit.com/edit/7UoREy1q9j-h">Emory Cooley</author>
 		<update version="0.1.0">
-			<file name="class-gravity-manipulator.xml"/>
+			<file name="class-gravity-manipulator.xml" url="https://github.com/ArcaneArrow/AuroraBuilder/blob/main/class-gravity-manipulator.xml" /> 
 		</update>
 	</info>
 	<element name="Gravity Manipulator" type="Class" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_GRAVITY_MANIPULATOR">
@@ -104,7 +106,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
-			<select type="Proficiency" name="Skill Proficiency (Gravity Manipulator)" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_SLIGHT_OF_HAND|ID_PROFICIENCY_SKILL_SURVIVAL|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
+			<select type="Proficiency" name="Skill Proficiency (Gravity Manipulator)" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_SURVIVAL|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_SSH_MULTICLASS_GRAVITY_MANIPULATOR"/>
 			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_DETECTION" level="1"/>
 			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GYROKINESIS" level="2"/>
 			<grant type="Class Feature" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_FADING_FOCUS" level="2"/>
@@ -137,17 +139,18 @@
 	</element>
 	<element name="Gravitational Detection" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_GRAVITATIONAL_DETECTION">
 		<description>
-			<p>Beginning at 1st level, you have expertise on all perception and investigation checks. When trying to locate a large, huge, or gargantuan sized creature, you have advantage on the perception or investigation check. You add +5 to your passive perception.</p>
+			<p>Beginning at 1st level, you have expertise on all perception and investigation checks.</p>
+			<p class="indent">When trying to locate a large, huge, or gargantuan sized creature, you have advantage on the perception or investigation check.</p>
+			<p class="indent">You add +5 to your passive perception.</p>
 		</description>
 		<sheet>
-			<description level="1">When trying to locate a large, huge, or gargantuan sized creature, you have advantage on the perception or investigation check.</description>
-			<description level="1">You add +5 to your passive perception.</description>
+			<description> When trying to locate a large, huge, or gargantuan sized creature, you have advantage on the perception or investigation check. You add +5 to your passive perception.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
-			<stat name="perception:proficiency" bonus="double" />
-			<stat name="investigation:proficiency" bonus="double" />
+			<stat name="perception:misc" value="proficiency" />
+			<stat name="investigation:misc" value="proficiency" />
 			<stat name="perception:passive" value="5" />
 		</rules>
 	</element>
@@ -160,10 +163,10 @@
 			<p class="indent">As an action you can spend 3 mana points to create a gravitational vacuum, unleash it in a 30-foot cone, and decide whether the it pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the ability.</p>
 		</description>
 		<sheet>
-			<description level="2">As a reaction you can spend mana points to slow the fall of up to five creatures within 60 feet of you. Each creature selected costs 1 mana point. A falling creature’s rate of descent slows to 60 feet per round until 1 minute passes. If the creature lands before the effect ends, it takes no falling damage and can land on its feet, and the effect ends for that creature.</description>
-			<description level="2">As an action you can spend 1 mana point to increase the gravity in a 10-foot-radius sphere centered on a point you can see within 60 feet of you. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</description>
-			<description level="2">As an action you can spend 3 mana points to choose a willing creature that you can see within 30 feet of you. For 1 minute, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns.</description>
-			<description level="2">As an action you can spend 3 mana points to create a gravitational vacuum, unleash it in a 30-foot cone, and decide whether the it pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the ability.</description>
+			<description>As a reaction you can spend mana points to slow the fall of up to five creatures within 60 feet of you. Each creature selected costs 1 mana point. A falling creature’s rate of descent slows to 60 feet per round until 1 minute passes. If the creature lands before the effect ends, it takes no falling damage and can land on its feet, and the effect ends for that creature.
+			As an action you can spend 1 mana point to increase the gravity in a 10-foot-radius sphere centered on a point you can see within 60 feet of you. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.
+			As an action you can spend 3 mana points to choose a willing creature that you can see within 30 feet of you. For 1 minute, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns.
+			As an action you can spend 3 mana points to create a gravitational vacuum, unleash it in a 30-foot cone, and decide whether the it pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the ability.</description>
 		</sheet>
 		<rules>
 			<stat name="mana:points" value="level:gravity-manipulator" />
@@ -177,17 +180,17 @@
 			<p>Beginning at 2nd level, whenever you take damage while using any aspect abilities, you must make a concentration saving through. On a failed save, all current ability usage ends. All damage you take before their next turn it is doubled.</p>
 		</description>
 		<sheet>
-			<description level="2">Beginning at 2nd level, whenever you take damage while using any aspect abilities, you must make a concentration saving through. On a failed save, all current ability usage ends. All damage you take before their next turn it is doubled.</description>
+			<description>Beginning at 2nd level, whenever you take damage while using any aspect abilities, you must make a concentration saving through. On a failed save, all current ability usage ends. All damage you take before their next turn it is doubled.</description>
 		</sheet>
 		<rules>
 		</rules>
 	</element>
-	<element name="Self-Tensor Field Manipulation" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_FIELDMANIPULATION">
+	<element name="Self-Tensor Field Manipulation" type="Class Feature" source="Shadow Slave Homebrew" id="ID_SSH_CLASS_FEATURE_GRAVITY_MANIPULATOR_SELF_TENSOR_FIELD_MANIPULATION">
 		<description>
 			<p>Beginning at 3rd level, as a bonus action you can chose to eithor weaken or strengthen gravity’s pull on you. When weakening gravity’s affect on you: you gain advantage on all dexterity checks and saves, your movment speed is doubled, all ranged attacks don’t have disadvantage due to range or cover, your ranged attacks have an additional +5 to hit, and you have disadvantage on strength saving throws. When strengthening gravity’s affect on you: you gain advantage on all strength checks and saves, your movment speed is halved, you deal double damage, you canot be encumbered, you are immune to being moved or knocked prone, your melee attacks have a additinal +5 to hit, and you have disadvantage on dexterity saving throws. After using this ability, you canot end the affect or change the type for a minimum of 12 seconds (2 turns).</p>
 		</description>
 		<sheet>
-			<description level="3">Beginning at 3rd level, as a bonus action you can chose to eithor weaken or strengthen gravity’s pull on you. When weakening gravity’s affect on you: you gain advantage on all dexterity checks and saves, your movment speed is doubled, all ranged attacks don’t have disadvantage due to range or cover, your ranged attacks have an additional +5 to hit, and you have disadvantage on strength saving throws. When strengthening gravity’s affect on you: you gain advantage on all strength checks and saves, your movment speed is halved, you deal double damage, you canot be encumbered, you are immune to being moved or knocked prone, your melee attacks have a additinal +5 to hit, and you have disadvantage on dexterity saving throws. After using this ability, you canot end the affect or change the type for a minimum of 12 seconds (2 turns).</description>
+			<description>Beginning at 3rd level, as a bonus action you can chose to eithor weaken or strengthen gravity’s pull on you. When weakening gravity’s affect on you: you gain advantage on all dexterity checks and saves, your movment speed is doubled, all ranged attacks don’t have disadvantage due to range or cover, your ranged attacks have an additional +5 to hit, and you have disadvantage on strength saving throws. When strengthening gravity’s affect on you: you gain advantage on all strength checks and saves, your movment speed is halved, you deal double damage, you canot be encumbered, you are immune to being moved or knocked prone, your melee attacks have a additinal +5 to hit, and you have disadvantage on dexterity saving throws. After using this ability, you canot end the affect or change the type for a minimum of 12 seconds (2 turns).</description>
 		</sheet>
 		<rules>
 		</rules>
@@ -214,7 +217,7 @@
 			<p class="indent">The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</p>
 		</description>
 		<sheet>
-			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
 			<description level="11">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
 			<description level="20">You can attack four times, instead of once, whenever you take the Attack action on your turn</description>
 		</sheet>
@@ -230,7 +233,7 @@
 			<p class="indent">The number of attacks per action with gravity projectiles increase to 3 at 11th level and 4 at 20th level.</p>
 		</description>
 		<sheet>
-			<description level="6">You can solidify and materialize gravity to create weapons and objects out of it. You can also use unstable constructs as projectiles with properties resembling a weak black hole. Weapons can be made using a bonus action and they last for 10 minutes or until a new one is created. Weapons made this way act as a +2 weapon. You habe proficiency in all weapons made using this ability. You can instead use an action to make 2 ranged attacks using unstable gravity projectiles. The range is 60/240 feet and deal 1d12 + your wisdom modifier force damage on a hit. The attack bonus is your wisdom modifier + your proficiency bonus.</description>
+			<description>You can solidify and materialize gravity to create weapons and objects out of it. You can also use unstable constructs as projectiles with properties resembling a weak black hole. Weapons can be made using a bonus action and they last for 10 minutes or until a new one is created. Weapons made this way act as a +2 weapon. You habe proficiency in all weapons made using this ability. You can instead use an action to make 2 ranged attacks using unstable gravity projectiles. The range is 60/240 feet and deal 1d12 + your wisdom modifier force damage on a hit. The attack bonus is your wisdom modifier + your proficiency bonus.</description>
 		</sheet>
 		<rules>
 		</rules>
@@ -247,7 +250,7 @@
 		<description>
 			<p>Beginning at 9th level, you can control and alter the gravity of any living organism within 60 feet of you.</p>		</description>
 		<sheet>
-			<description level="9">You can control and alter the gravity of any living organism within 60 feet of you.</description>
+			<description>You can control and alter the gravity of any living organism within 60 feet of you.</description>
 		</sheet>
 		<rules>
 		</rules>
@@ -256,10 +259,10 @@
 		<description>
 			<p>Beginning at 10th level, you gain a flying speed equal to your movment speed.</p>		</description>
 		<sheet>
-			<description level="10">You gain a flying speed equal to your movment speed.</description>
+			<description>You gain a flying speed equal to your movment speed.</description>
 		</sheet>
 		<rules>
-			<stat name="innate speed:fly:misc" value="innate speed" />
+			<stat name="speed:fly" value="speed" bonus="base" />
 		</rules>
 	</element>
 </elements>
